@@ -9,5 +9,8 @@ This project will produce a Gentrification Atlas, which allows stakeholders in t
 The primary task for the project is the creation of a prediction model of gentrification, utilizing Census data from the past two decades, such as the median income of households in each neighborhood. The prediction model will identify those neighborhoods: that have gentrified, that are currently gentrifying, and that are in greatest danger of gentrifying.  
   
 ### Contents of the Repository
-The [Lit-Review-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Lit-Review-Docs) folder contains documents related to the literature review for this project.  
-The [Proposal-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Proposal-Docs) folder contains documents related to the propsal for the Seattle Gentrification Atlas. 
+__NOTE:__ unless stated otherwise, these folders are for academic research purposes only. Although this repository is public, we recognize much of this material is copyrighted, and we have no intention of republishing this material. This repository is designed solely to facilitate the educational process.    
+ * [Lit-Review-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Lit-Review-Docs) is a working directory containing documents related to the literature review for this project.  
+ * [Proposal-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Proposal-Docs) is a working directory containing documents related to the proposal for the Seattle Gentrification Atlas.  
+ * [Sample-Visualizations](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Sample-Visualizations) is a working directory containing ideas of how to visualize data in the Gentrification Atlas tool.  
+ 
