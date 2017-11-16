@@ -22,7 +22,7 @@ def import_file(file_name, geo_old):
 
 # Function to merge crosswalk and data file and multiple data by weights. Input: df / output: df.
 def merge_and_weight(cross, data, geo_old, geo_new, weight, weight2):
-	merged = pd.merge(cross,data,on=geo_old)
+	merged = pd.merge(cross, data, on=geo_old)
 
 	columns = list(merged)
 
@@ -135,9 +135,11 @@ def main():
 
 		if base in margins:
 			try:
-				# Margin for ratios uses formula from appendix for derived ratios because it is more conservative (eg yields wider margins) and doesn't yield negatives under root
+				# Margin for ratios uses formula from appendix for derived ratios because it is more conservative
+				# (eg yields wider margins) and doesn't yield negatives under root
 				# Source: https://www.census.gov/content/dam/Census/library/publications/2009/acs/ACSResearch.pdf
-				margin_agg[ratio_margin] = ((margin_agg[numer_margin]**2 + ((count_agg[ratio]**2)*margin_agg[denom_margin]**2))**.5)/count_agg[denom]
+				margin_agg[ratio_margin] = ((margin_agg[numer_margin]**2 +
+				((count_agg[ratio]**2)*margin_agg[denom_margin]**2))**.5)/count_agg[denom]
 			except:
 				print ("{0}, {1}, {2}, {3} for variable {4}.".format(numer_margin, denom_margin, ratio, denom, ratio_margin))
 
@@ -147,8 +149,8 @@ def main():
 	final = pd.concat([count_agg, margin_agg], axis=1)
 	del final['tract']
 	del final['unnamed: 0']
-	# Output new file to csv
 	
+	# Output new file to CSV
 	finalfile = "{0}_{1}.csv".format(name, geo_new)
 	output_file = os.path.join("outputs", finalfile)
 	final.to_csv(output_file)
@@ -159,9 +161,9 @@ def main():
 window = Tk()
 window.title("Crosswalk Script")
 
-Button(window, text="Quit", command=window.quit).grid(row=7,column=1, pady=4)
+Button(window, text="Quit", command=window.quit).grid(row=7, column=1, pady=4)
 enter = Button(window, text="Enter", command=main)
-enter.grid(row=7,column=0, pady=4)
+enter.grid(row=7, column=0, pady=4)
 enter.config(state="disabled")
 
 def disable_button(*args):
