@@ -2,7 +2,8 @@
 # https://github.com/uwescience/DSSG2017-Equity/blob/gh-pages/data/scripts/fetch_acs.py
 # edited to work with python 3.6
 
-import itertools, json, math, os, re, sys, urllib.request, urllib.error, yaml
+import itertools, json, math, os, re, sys
+import urllib.request, urllib.error, urllib2, yaml
 
 DEFAULT_OUTPUT_DIRECTORY = "outputs"
 DEFAULT_OUTPUT_FILE = "acs_blockgroup_data.json"
@@ -22,7 +23,7 @@ def census_query(acs_variables, base_url, geo):
         url = "&".join([base_url, "get=" + ",".join(v), geo])
         print ("Fetching {} fields from ACS...".format(len(v)))
         print ("URL: " + url)
-        # resp = json.loads(urllib.request.urlopen(url).read().decode("UTF-8"))
+        # resp = json.loads(urllib2.urlopen(url).read().decode("UTF-8"))
         resp = json.loads(urllib.request.urlopen(url).read().decode("UTF-8"))
         # colnames, *data = resp
         colnames = resp[0]
@@ -130,8 +131,8 @@ def main(args):
     all_acs_fields |= set(re.sub("E", "M", s) for s in all_acs_fields)
     tracts = census_query(all_acs_fields, base_url, geo)
 
-    # print all_acs_fields
-    # print tracts['11001000300']
+    # print(all_acs_fields)
+    # print(tracts['11001000300'])
 
     # compute named variables from ACS variables
 
