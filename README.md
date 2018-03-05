@@ -36,7 +36,7 @@ For information about how to label the data, see the notebook file: [Label_Simpl
 
 * Jupyter Notebook is an open-source web application for viewing and distributing code. To download the Jupyter Notebook application, see [Installation](https://jupyter.org/install.html), and for more information, see [Documentation](https://jupyter.org/documentation.html). 
 * You will need Python 3.X and the following Python libraries to run the code in `Label_SimplyAnalyticsData.ipynb`.  
-  - [Matplotlib](https://matplotlib.org) : will be used for data visualization
-  - [Numpy](http://www.numpy.org) : will be used for data calculations
+  - [Matplotlib](https://matplotlib.org) : will be used for data visualization  
+  - [Numpy](http://www.numpy.org) : will be used for data calculations  
   - [Pandas](http://pandas.pydata.org) : will be used for data processing  
  
