@@ -13,7 +13,9 @@ __NOTE__ Unless stated otherwise, these folders are for academic research purpos
 
 ![poster](https://raw.githubusercontent.com/dipsuw/Capstone590/master/images/SeattleGentrificationAtlas_poster.png)  
 
-<a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/images/SeattleGentrificationAtlas_poster.pdf">Poster</a>
+![poster](https://raw.githubusercontent.com/dipsuw/Capstone590/master/images/SeattleGentrificationAtlas_poster.pdf)  
+
+<a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/images/SeattleGentrificationAtlas_poster.pdf">Click to download pdf of poster</a>
 
 ## Purpose of this Project 
 In the years since Microsoft became a household name, the Seattle area has continued to benefit from further investment in the technology sector. While the rise of the technology sector provides economic opportunities for many residents, it also exacerbates urban inequity through the process of gentrification.  
