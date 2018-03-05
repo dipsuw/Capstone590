@@ -11,10 +11,6 @@ __NOTE__ Unless stated otherwise, these folders are for academic research purpos
 
 ![screenshot](https://raw.githubusercontent.com/dipsuw/Capstone590/master/images/dashboard_demo_data.jpeg)
 
-![poster](https://raw.githubusercontent.com/dipsuw/Capstone590/master/images/SeattleGentrificationAtlas_poster.png)  
-
-![poster](https://raw.githubusercontent.com/dipsuw/Capstone590/master/images/SeattleGentrificationAtlas_poster.pdf)  
-
 <a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/images/SeattleGentrificationAtlas_poster.pdf">Click to download pdf of poster</a>
 
 ## Purpose of this Project 
@@ -26,13 +22,14 @@ The Seattle Gentrification Atlas compares definitions of gentrification from the
 
 The Seattle Gentrification Atlas combines data analysis with GIS-based visualizations to produce spatial maps to reflect how gentrification has changed Seattle since 2000. Visualizing patterns of gentrification provides increased insight into the disparate impact of socioeconomic changes among Seattle's neighborhoods. Users can explore (1) how gentrification effects each neighborhood, (2) how other demographic factors are related to gentrification, and (3) how Seattle neighborhoods are likely to change in 2018.  
   
-## Data Used in Project
- * The combined dataset with the demographic data: `blockgroup_data.csv`   
+## About the Data
+#### Data Used in Project
+ * The combined dataset with the demographic data used for labeling is available in this CSV file: `blockgroup_data.csv`. 
+ * The labeled dataset is available in this CSV file: `SimplyAnalytics_data_with_labels.csv`. 
  
-## Data Sources
-* The demographic data was downloaded from the Simply Analytics database. Simply Analytics is only accessible through academic institutions and public libraries that subscribe to the Simply Analytics database.  
-* Easy Analytic Software, Inc. (EASI) is a New York-based independent developer of desktop and internet demographic data.  
-  - SimplyAnalytics (2017). EASI/AGS Data 2000, 2010-17. Retrieved Feb. 8-17 2017, from SimplyAnalytics database.  
+#### Data Sources
+* The demographic data was downloaded from the __Simply Analytics__ database. Simply Analytics is only accessible through academic institutions and public libraries that subscribe to the Simply Analytics database. The demographic variable estimates we downloaded from Simply Analytics were calculated by Easy Analytic Software, Inc. (EASI). EASI is a New York-based independent developer of desktop and internet demographic data.  
+SimplyAnalytics (2017). EASI/AGS Data 2000, 2010-17. Retrieved Feb. 8-17 2017, from SimplyAnalytics database.  
 
 ## Tools Used in Project
 For information about how to label the data, see the notebook file: [Label_SimplyAnalyticsData.ipynb](https://raw.githubusercontent.com/dipsuw/Capstone590/master/code/Label_SimplyAnalyticsData.ipynb).  
@@ -40,6 +37,6 @@ For information about how to label the data, see the notebook file: [Label_Simpl
 * Jupyter Notebook is an open-source web application for viewing and distributing code. To download the Jupyter Notebook application, see [Installation](https://jupyter.org/install.html), and for more information, see [Documentation](https://jupyter.org/documentation.html). 
 * You will need Python 3.X and the following Python libraries to run the code in `Label_SimplyAnalyticsData.ipynb`.  
   - [Matplotlib](https://matplotlib.org) : will be used for data visualization
-  - [Numpy](http://www.numpy.org) : will be used for data calculations  
+  - [Numpy](http://www.numpy.org) : will be used for data calculations
   - [Pandas](http://pandas.pydata.org) : will be used for data processing  
  
