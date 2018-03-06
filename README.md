@@ -15,7 +15,7 @@ The Seattle Gentrification Atlas is an interactive dashboard that combines demog
 
 ![screenshot](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/dashboard_demo_data.jpeg)
 
-<a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/SeattleGentrificationAtlas_poster.pdf">Click to download pdf of poster</a>
+Click on the link to download a pdf version of the poster summarizing our project: <a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/SeattleGentrificationAtlas_poster.pdf">download poster </a>
 
 ## Project Purpose
 In the years since Microsoft became a household name, the Seattle area continues to benefit from further investment in the technology sector. Consequently, Seattle's real estate market is routinely one of the hottest markets, pushing rent and house prices substantially higher than other metro areas. So, while the rise of the technology sector provides economic opportunities for many residents, it also exacerbates urban inequity through the process of gentrification.  
