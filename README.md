@@ -5,7 +5,7 @@ The Seattle Gentrification Atlas is an interactive dashboard that combines demog
 
 ## Overview of Repository Contents  
  * [Code](https://raw.githubusercontent.com/dipsuw/Capstone590/master/code) contains relevant Jupyter Notebook files.
- * [Data](https://raw.githubusercontent.com/dipsuw/Capstone590/master/data) contains CSV files with demographic data and gentrification status labels and shapefiles.  
+ * [Data](https://raw.githubusercontent.com/dipsuw/Capstone590/master/data) contains shapefiles and the CSV files with data used in this project and the gentrification status labels we generated.  
    - _e.g._ `blockgroup_data.csv` and `SimplyAnalytics_data_with_labels.csv`. 
  * [Images](https://raw.githubusercontent.com/dipsuw/Capstone590/master/images) contains selected screenshots from the Tableau dashboard and other relevant images.
  * [Lit-Review-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Lit-Review-Docs) contains a curated set of documents from the literature review for this project.  
@@ -40,14 +40,14 @@ Well, we compared gentrification definitions from the fields of Sociology, Econo
 
 The Seattle Gentrification Atlas combines data analysis with GIS-based visualizations to produce spatial maps to reflect how gentrification has changed Seattle since 2000. Visualizing patterns of gentrification provides increased insight into the disparate impact of socioeconomic changes among Seattle's neighborhoods. Users can explore (1) how gentrification effects each neighborhood, (2) how other demographic factors are related to gentrification, and (3) how Seattle neighborhoods are likely to change in 2018.  
   
-## About the Data
-#### Data Used in Project
- * The combined dataset with the demographic data used for labeling is available in this CSV file: `blockgroup_data.csv`. 
- * The labeled dataset is available in this CSV file: `SimplyAnalytics_data_with_labels.csv`. 
- 
-#### Data Sources
-* The demographic data was downloaded from the __Simply Analytics__ database. Simply Analytics is only accessible through academic institutions and public libraries that subscribe to the Simply Analytics database. The demographic variable estimates we downloaded from Simply Analytics were calculated by Easy Analytic Software, Inc. (EASI). EASI is a New York-based independent developer of desktop and internet demographic data.  
-SimplyAnalytics (2017). EASI/AGS Data 2000, 2010-17. Retrieved Feb. 8-17 2017, from SimplyAnalytics database.  
+## Data Sources
+* The demographic data was downloaded from the __Simply Analytics__ database. Simply Analytics is only accessible through those academic institutions and public libraries which subscribe to the Simply Analytics database. SimplyAnalytics (2017). EASI/AGS Data 2000, 2010-17. Retrieved Feb. 8-17 2017, from SimplyAnalytics database.  
+* The demographic variable estimates we downloaded from Simply Analytics were calculated by Easy Analytic Software, Inc. (EASI). EASI is a New York-based independent developer of desktop and internet demographic data.  
+* The neighborhood shapefiles were supplied by the Seattle Public Utilities through the Seattle GIS Database.  
+* The census block group shapefiles were supplied by the U.S. Census Bureau.
+* Other Useful Resources:
+   - Census and American Community Survey (ACS) data can be downloaded from the American FactFinder [site](https://factfinder.census.gov/)
+   - Shapefiles for King County can be found in the King County GIS Open Data [database](https://gis-kingcounty.opendata.arcgis.com)
 
 ## Tools Used in Project
 For information about how to label the data, see the notebook file: [Label_SimplyAnalyticsData.ipynb](https://raw.githubusercontent.com/dipsuw/Capstone590/master/code/Label_SimplyAnalyticsData.ipynb).  
@@ -58,3 +58,6 @@ For information about how to label the data, see the notebook file: [Label_Simpl
   - [Numpy](http://www.numpy.org) : will be used for data calculations
   - [Pandas](http://pandas.pydata.org) : will be used for data processing  
  
+## Links to Other Gentrification Research Projects:
+ * Zuk, M., & Chapple, K. (2015). Urban Displacement Project. [site](http://www.urbandisplacement.org)
+ * Urban Spatial Analysis by Ken Steif, Alan Mallach, Michael Fichman, Simon Kassel. Predicting gentrification using longitudinal census data [site](http://urbanspatialanalysis.com/portfolio/predicting-gentrification-using-longitudinal-census-data/)
