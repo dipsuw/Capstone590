@@ -1,19 +1,24 @@
 ## Project Summary
-This is the repository for the **Seattle Gentrification Atlas** capstone project in the Masters of Science in Data Science program at the University of Washington, and prepared by Deepa Agrawal, Erin Orbits, and Angel Wang.  
+This is the repository for the **Seattle Gentrification Atlas** capstone project in the Masters of Science in Data Science program at the University of Washington.  
+The **Seattle Gentrification Atlas** Project Team Members are Deepa Agrawal, Erin Orbits, and Angel Wang.  
 
-The Seattle Gentrification Atlas is an interactive dashboard that combines many data sources in a visualization designed to analyze trends over time. The Seattle Gentrification Atlas is available on the Tableau Public site: [here](https://public.tableau.com/profile/erin.orbits#!/vizhome/SeattleGentrificationAtlas/Atlas?publish=yes).  
+The **Seattle Gentrification Atlas** is an interactive dashboard that combines demographic information with GIS shapefiles to depict gentrification trends in Seattle since 2000. Please checkout a simplified version of the **Seattle Gentrification Atlas** on the [Tableau Public site](https://public.tableau.com/profile/erin.orbits#!/vizhome/SeattleGentrificationAtlas/Atlas?publish=yes).  
 
-## Contents of the Repository
+## Overview of Repository Contents
 __NOTE__ Unless stated otherwise, these folders are for academic research purposes only. Although this repository is public, we recognize some of this material is copyrighted, and we have no intention of republishing this material. This repository is designed solely to facilitate the educational process.    
- * [Lit-Review-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Lit-Review-Docs) is a working directory containing documents related to the literature review for this project.  
+ * [code](https://raw.githubusercontent.com/dipsuw/Capstone590/master/code) contains relevant Jupyter Notebook files.
+ * [data](https://raw.githubusercontent.com/dipsuw/Capstone590/master/data) contains CSV files with demographic data and gentrification status labels and shapefiles.  
+   - _e.g._ `blockgroup_data.csv` and `SimplyAnalytics_data_with_labels.csv`. 
+ * [images](https://raw.githubusercontent.com/dipsuw/Capstone590/master/images) contains selected screenshots from the Tableau dashboard and other relevant images.
+ * [Lit-Review-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Lit-Review-Docs) contains a curated set of documents from the literature review for this project. 
  
-## Sample Visualizations
+## Sample Visualizations from the Seattle Gentrification Atlas
 
 ![screenshot](https://raw.githubusercontent.com/dipsuw/Capstone590/master/images/dashboard_demo_data.jpeg)
 
 <a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/images/SeattleGentrificationAtlas_poster.pdf">Click to download pdf of poster</a>
 
-## Purpose of this Project 
+## Project Purpose
 In the years since Microsoft became a household name, the Seattle area has continued to benefit from further investment in the technology sector. While the rise of the technology sector provides economic opportunities for many residents, it also exacerbates urban inequity through the process of gentrification.  
 
 Gentrification is one process that contributes to inequality. However, there is no consensus about how to define gentrification. While, the definition of gentrification differs among academic disciplines, in general, a gentrifying neighborhood is one that moves from the bottom half to the top half in the distribution of median household income, rent, or home prices.  
@@ -37,6 +42,6 @@ For information about how to label the data, see the notebook file: [Label_Simpl
 * Jupyter Notebook is an open-source web application for viewing and distributing code. To download the Jupyter Notebook application, see [Installation](https://jupyter.org/install.html), and for more information, see [Documentation](https://jupyter.org/documentation.html). 
 * You will need Python 3.X and the following Python libraries to run the code in `Label_SimplyAnalyticsData.ipynb`.  
   - [Matplotlib](https://matplotlib.org) : will be used for data visualization  
-  - [Numpy](http://www.numpy.org) : will be used for data calculations  
-  - [Pandas](http://pandas.pydata.org) : will be used for data processing  
+  - [Numpy](http://www.numpy.org) : will be used for data calculations
+  - [Pandas](http://pandas.pydata.org) : will be used for data processing  
  
