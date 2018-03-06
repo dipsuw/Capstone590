@@ -1,16 +1,15 @@
-## Project Summary
-This is the repository for the **Seattle Gentrification Atlas** capstone project in the Masters of Science in Data Science program at the University of Washington.  
-The **Seattle Gentrification Atlas** Project Team Members are Deepa Agrawal, Erin Orbits, and Angel Wang.  
+## Seattle Gentrification Atlas Project Summary
+This is the repository for a capstone project completed during the Masters of Science in Data Science program at the University of Washington. The Project Team Members include: **Deepa Agrawal**, **Erin Orbits**, and **Angel Wang**.  
 
-The **Seattle Gentrification Atlas** is an interactive dashboard that combines demographic information with GIS shapefiles to depict gentrification trends in Seattle since 2000. Please checkout a simplified version of the **Seattle Gentrification Atlas** on the [Tableau Public site](https://public.tableau.com/profile/erin.orbits#!/vizhome/SeattleGentrificationAtlas/Atlas?publish=yes).  
+The Seattle Gentrification Atlas is an interactive dashboard that combines demographic information with GIS shapefiles to depict gentrification trends in Seattle since 2000. Please checkout the Seattle Gentrification Atlas on the [Tableau Public site](https://public.tableau.com/profile/erin.orbits#!/vizhome/SeattleGentrificationAtlas/Atlas?publish=yes).  
 
-## Overview of Repository Contents
-__NOTE__ Unless stated otherwise, these folders are for academic research purposes only. Although this repository is public, we recognize some of this material is copyrighted, and we have no intention of republishing this material. This repository is designed solely to facilitate the educational process.    
+## Overview of Repository Contents  
  * [code](https://raw.githubusercontent.com/dipsuw/Capstone590/master/code) contains relevant Jupyter Notebook files.
  * [data](https://raw.githubusercontent.com/dipsuw/Capstone590/master/data) contains CSV files with demographic data and gentrification status labels and shapefiles.  
    - _e.g._ `blockgroup_data.csv` and `SimplyAnalytics_data_with_labels.csv`. 
  * [images](https://raw.githubusercontent.com/dipsuw/Capstone590/master/images) contains selected screenshots from the Tableau dashboard and other relevant images.
- * [Lit-Review-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Lit-Review-Docs) contains a curated set of documents from the literature review for this project. 
+ * [Lit-Review-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Lit-Review-Docs) contains a curated set of documents from the literature review for this project.  
+   __Please Note__ These documents are included for academic research purposes only. Although this repository is public, and we recognize some of this material is copyrighted, we have no intention of republishing this material. This repository is designed solely to facilitate the educational process.   
  
 ## Sample Visualizations from the Seattle Gentrification Atlas
 
