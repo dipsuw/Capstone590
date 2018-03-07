@@ -1,7 +1,10 @@
-## Seattle Gentrification Atlas Project Summary
-This is the repository for a capstone project completed during the Masters of Science in Data Science program at the University of Washington. The Project Team Members include: **Deepa Agrawal**, **Erin Orbits**, and **Angel Wang**.  
+## Project Summary
+This is the repository for the capstone project, **Seattle Gentrification Atlas**, completed in March of 2018 as part of the Masters of Science in Data Science program at the University of Washington. The Project Team Members include: **Deepa Agrawal**, **Erin Orbits**, and **Angel Wang**.  
 
-The Seattle Gentrification Atlas is an interactive dashboard that combines demographic information with GIS shapefiles to depict gentrification trends in Seattle since 2000. Please checkout the Seattle Gentrification Atlas on the [Tableau Public site](https://public.tableau.com/profile/erin.orbits#!/vizhome/SeattleGentrificationAtlas/Atlas?publish=yes).  
+The Seattle Gentrification Atlas ("Atlas") is an interactive dashboard that combines demographic information with GIS shapefiles to depict gentrification trends in Seattle since 2000. Please checkout the Atlas on the [Tableau Public site](https://public.tableau.com/profile/erin.orbits#!/vizhome/SeattleGentrificationAtlas/Atlas?publish=yes) where users can explore:  
+* patterns of gentrification across Seattle, 
+* other demographic factors related to gentrification, and 
+* how Seattle neighborhoods are likely to change in 2018.   
 
 ## Overview of Repository Contents  
  * [Code](https://raw.githubusercontent.com/dipsuw/Capstone590/master/code) contains relevant Jupyter Notebook files.
@@ -21,9 +24,9 @@ Click on the link to download a pdf version of the poster summarizing our projec
 In the years since Microsoft became a household name, the Seattle area continues to benefit from further investment in the technology sector. Consequently, Seattle's real estate market is routinely one of the hottest markets, pushing rent and house prices substantially higher than other metro areas. So, while the rise of the technology sector provides economic opportunities for many residents, it also exacerbates urban inequity through the process of gentrification.  
 
 A gentrifying neighborhood is often defined as one that moves from the bottom half to the top half in the distribution of median household income, rent, or home prices. However, gentrification is an umbrella term for describing a process characterized by  
-(1) the displacement of poor communities by rich outsiders,  
-(2) the substantial increase in the cost of living, and  
-(3) the changes to the longstanding character or culture of a community.  
+ > (1)   the displacement of poor communities by rich outsiders,  
+ > (2) the substantial increase in the cost of living, and  
+ > (3) the changes to the longstanding character or culture of a community.  
 Further complicating the issue, gentrification frequently occurs along racial and economic fault lines.  
 
 For example, Seattle, like most U.S. metro areas, has a terrible history of systematic racial discrimination through the process of redlining. Redlining is "the practice by banks and other lending institutions of refusing home loans or requiring higher interest rates and larger down payments to otherwise credit worthy people because they happen to live in a certain area." Central Seattle Community Council Federation, _Redlining and Disinvestment in Central Seattle: How the Banks are Destroying our Neighborhoods_ (July 1975) [Link to Report](http://clerk.seattle.gov/~F_archives/documents/Doc_11219.pdf). For more information about redlining in Seattle, see the CityArchives [site](https://www.seattle.gov/cityarchives/exhibits-and-education/online-exhibits/redlining-in-seattle).  
@@ -36,9 +39,9 @@ However, there is no consensus about how to define gentrification.
 
 The best way to measure this process would be to ask the emigrating and immigrating residents: (1) why they moved out of the neighborhood and (2) why they moved into the neighborhood. But, we couldn't find anyone who collects that data. So we ask the question, __how should we measure gentrification?__  
 
-Well, we compared gentrification definitions from the fields of Sociology, Economics, and Urban Planning. Using these definitions, the Atlas identifies those neighborhoods: that have gentrified, that are currently gentrifying, and that are in greatest danger of gentrifying.  Using estimates based on census data, the Seattle Gentrification Atlas is designed to flag areas in danger of gentrification and visualize trends across the city. 
+In an attempt to answer this question, we compared gentrification definitions from the fields of Sociology, Economics, and Urban Planning. Applying these definitions to estimates based on census data, the Atlas identifies census block groups: that have gentrified, that are currently gentrifying, and that are in greatest danger of gentrifying.  
 
-The Seattle Gentrification Atlas combines data analysis with GIS-based visualizations to produce spatial maps to reflect how gentrification has changed Seattle since 2000. Visualizing patterns of gentrification provides increased insight into the disparate impact of socioeconomic changes among Seattle's neighborhoods. Users can explore (1) how gentrification effects each neighborhood, (2) how other demographic factors are related to gentrification, and (3) how Seattle neighborhoods are likely to change in 2018.  
+The Atlas combines data analysis with GIS-based visualizations to produce spatial maps to reflect how gentrification has changed Seattle since 2000. We hope that visualizing patterns of gentrification provides increased insight into the disparate impact of socioeconomic changes among Seattle's neighborhoods.   
   
 ## Data Sources
 * The demographic data was downloaded from the __Simply Analytics__ database. Simply Analytics is only accessible through those academic institutions and public libraries which subscribe to the Simply Analytics database. SimplyAnalytics (2017). EASI/AGS Data 2000, 2010-17. Retrieved Feb. 8-17 2017, from SimplyAnalytics database.  
