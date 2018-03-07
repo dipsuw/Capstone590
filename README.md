@@ -6,6 +6,8 @@ The Seattle Gentrification Atlas ("Atlas") is an interactive dashboard that comb
 * other demographic factors related to gentrification, and 
 * how Seattle neighborhoods are likely to change in 2018.   
 
+Click the link to download a pdf version of the poster summarizing our project: <a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/SeattleGentrificationAtlas_poster.pdf">download pdf </a>
+
 ## Overview of Repository Contents  
  * [Code](https://raw.githubusercontent.com/dipsuw/Capstone590/master/code) contains relevant Jupyter Notebook files.
  * [Data](https://raw.githubusercontent.com/dipsuw/Capstone590/master/data) contains shapefiles and the CSV files with data used in this project and the gentrification status labels we generated.  
@@ -15,10 +17,10 @@ The Seattle Gentrification Atlas ("Atlas") is an interactive dashboard that comb
    __Please Note__ These documents are included for academic research purposes only. Although this repository is public, and we recognize some of this material is copyrighted, we have no intention of republishing this material. This repository is designed solely to facilitate the educational process.   
  
 ## Sample Visualizations from the Seattle Gentrification Atlas
-
+#### Dashboard comparing definitions of gentrification
+![screenshot](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/compare_defs_map.jpeg)
+#### Dashboard showing demographic changes over time in Seattle
 ![screenshot](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/dashboard_demo_data.jpeg)
-
-Click on the link to download a pdf version of the poster summarizing our project: <a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/SeattleGentrificationAtlas_poster.pdf">download poster </a>
 
 ## Project Purpose
 In the years since Microsoft became a household name, the Seattle area continues to benefit from further investment in the technology sector. Consequently, Seattle's real estate market is routinely one of the hottest markets, pushing rent and house prices substantially higher than other metro areas. So, while the rise of the technology sector provides economic opportunities for many residents, it also exacerbates urban inequity through the process of gentrification.  
@@ -61,6 +63,25 @@ For information about how to label the data, see the notebook file: [Label_Simpl
   - [Numpy](http://www.numpy.org) : will be used for data calculations
   - [Pandas](http://pandas.pydata.org) : will be used for data processing  
  
+## Findings
+#### Demographic Trends
+1. Median rent increased dramatically from 2011 to 2017, and is significantly higher than the percent increase in home values.  
+2. Strong positive correlation (>0.6) between following features:  
+ * education, household income, & non-Hispanic whites  
+ * renters, structures with 5+ Units, & household income < $25,000  
+3. Strong negative correlation (<-0.6) between following features:  
+ * households with 3+ vehicles & renter occupied units  
+ * structures with 5+ Units & percent of family households  
+ 
+#### Definition Trends 
+1. The Sociology definition was the most sensitive indicator of gentrification even though it relies in part on home values. But, the home value criteria is static, unlike the Economics definition.
+2. Although the Economics definition only has a single criteria for gentrification, it made gentrification significantly less common since home values do not change much over a single year.
+
+## Future Work
+Karen Chapple's work in the San Francisco/Oakland area demonstrates a correlation between proximity to public transportation and gentrification. It would be interesting to compare the demographics of the block groups near the new light rail stations in Seattle to those block groups not within walking distance of any stations.  
+
+We have some business data in the Data folder, it would be interesting to look at the rates of new businesses and what kinds of new businesses tend to move into block groups which are in danger of gentrification. 
+
 ## Links to Other Gentrification Research Projects:
  * Zuk, M., & Chapple, K. (2015). Urban Displacement Project. [site](http://www.urbandisplacement.org)
  * Urban Spatial Analysis by Ken Steif, Alan Mallach, Michael Fichman, Simon Kassel. Predicting gentrification using longitudinal census data [site](http://urbanspatialanalysis.com/portfolio/predicting-gentrification-using-longitudinal-census-data/)
