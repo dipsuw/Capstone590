@@ -6,6 +6,8 @@ The Seattle Gentrification Atlas ("Atlas") is an interactive dashboard that comb
 * other demographic factors related to gentrification, and 
 * how Seattle neighborhoods are likely to change in 2018.   
 
+![screenshot](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/SeattleGentrificationAtlasPoster.jpeg)
+
 Click the link to download a pdf version of the poster summarizing our project: <a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/SeattleGentrificationAtlas_poster.pdf">download pdf </a>
 
 ## Overview of Repository Contents  
@@ -59,9 +61,10 @@ For information about how to label the data, see the notebook file: [Label_Simpl
 
 * Jupyter Notebook is an open-source web application for viewing and distributing code. To download the Jupyter Notebook application, see [Installation](https://jupyter.org/install.html), and for more information, see [Documentation](https://jupyter.org/documentation.html). 
 * You will need Python 3.X and the following Python libraries to run the code in `Label_SimplyAnalyticsData.ipynb`.  
-  - [Matplotlib](https://matplotlib.org) : will be used for data visualization  
-  - [Numpy](http://www.numpy.org) : will be used for data calculations
-  - [Pandas](http://pandas.pydata.org) : will be used for data processing  
+  - [json](https://docs.python.org/3/library/json.html) : is used in `get_data_census_api.ipynb`
+  - [Matplotlib](https://matplotlib.org) : is used for data visualization  
+  - [Numpy](http://www.numpy.org) : is used for data calculations
+  - [Pandas](http://pandas.pydata.org) : is used for data processing  
  
 ## Findings
 #### Demographic Trends
