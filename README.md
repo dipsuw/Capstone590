@@ -90,4 +90,4 @@ We have some business data in the Data folder, it would be interesting to look a
 ## Links to Other Gentrification Research Projects:
  * Zuk, M., & Chapple, K. (2015). Urban Displacement Project. [site](http://www.urbandisplacement.org)
  * Urban Spatial Analysis by Ken Steif, Alan Mallach, Michael Fichman, Simon Kassel. Predicting gentrification using longitudinal census data [site](http://urbanspatialanalysis.com/portfolio/predicting-gentrification-using-longitudinal-census-data/)
- * Equity Modeler prototype repository [site](https://github.com/uwescience/DSSG2017-Equity)
+ * Equitable Futures GitHub repository for the Equity Modeler prototype [site](https://github.com/uwescience/DSSG2017-Equity)
