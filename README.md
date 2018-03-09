@@ -12,12 +12,12 @@ The Seattle Gentrification Atlas ("Atlas") is an interactive dashboard that comb
 Click the link to download a pdf version of the project poster: <a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/SeattleGentrificationAtlas_poster.pdf">download pdf </a>
 
 ## Overview of Repository Contents  
- * [Code](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Code) contains relevant Jupyter Notebook files with code written for this project, see the readme file in the Code directory for more information.
- * [Data](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Data) contains shapefiles and the CSV files with data used in this project and the gentrification status labels we generated.  
+ * [Code](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Code/) contains relevant Jupyter Notebook files with code written for this project, see the readme file in the Code directory for more information.
+ * [Data](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Data/) contains shapefiles and the CSV files with data used in this project and the gentrification status labels we generated.  
    - _e.g._ `blockgroup_data.csv` includes the demographic data for 2000, and 2010-2017, and `SimplyAnalytics_data_with_labels.csv` contains the same data, but with the gentrification status labels. 
- * [Images](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images) contains selected screenshots from the Tableau dashboard and other relevant images.  
- * [Project-Proposal]((https://raw.githubusercontent.com/dipsuw/Capstone590/master/Project-Proposal) contains the final project proposal along with the drafts of the proposal.
- * [Lit-Review-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Lit-Review-Docs) contains a curated set of documents from the literature review for this project.  
+ * [Images](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/) contains selected screenshots from the Tableau dashboard and other relevant images.  
+ * [Project-Proposal](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Project-Proposal/) contains the final project proposal along with the drafts of the proposal.
+ * [Lit-Review-Docs](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Lit-Review-Docs/) contains a curated set of documents from the literature review for this project.  
    __Please Note__ These documents are included for academic research purposes only. Although this repository is public, and we recognize some of this material is copyrighted, we have no intention of republishing this material. The selected documents in the `Lit-Review-Docs` directory are included to provide context for our project. This repository is designed solely to facilitate the educational process.   
  
 ## Sample Visualizations from the Seattle Gentrification Atlas
