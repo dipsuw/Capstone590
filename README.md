@@ -12,8 +12,8 @@ The Seattle Gentrification Atlas ("Atlas") is an interactive dashboard that comb
 Click the link to download a pdf version of the project poster: <a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/SeattleGentrificationAtlas_poster.pdf">download pdf </a>
 
 ## Overview of Repository Contents  
- * [Code](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Code/readme.md) contains relevant Jupyter Notebook files with code written for this project, see the readme file in the Code directory for more information.
- * [Data](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Data/readme.md) contains shapefiles and the CSV files with data used in this project and the gentrification status labels we generated.  
+ * [Code](Code/) contains relevant Jupyter Notebook files with code written for this project, see the readme file in the Code directory for more information.
+ * [Data](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Data/) contains shapefiles and the CSV files with data used in this project and the gentrification status labels we generated.  
    - _e.g._ `blockgroup_data.csv` includes the demographic data for 2000, and 2010-2017, and `SimplyAnalytics_data_with_labels.csv` contains the same data, but with the gentrification status labels. 
  * [Images](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/) contains selected screenshots from the Tableau dashboard and other relevant images.  
  * [Project-Proposal](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Project-Proposal/) contains the final project proposal along with the drafts of the proposal.
