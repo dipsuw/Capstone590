@@ -12,8 +12,8 @@ The Seattle Gentrification Atlas ("Atlas") is an interactive dashboard that comb
 Click the link to download a pdf version of the project poster: <a href="https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/SeattleGentrificationAtlas_poster.pdf">download pdf </a>
 
 ## Overview of Repository Contents  
- * [Code](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Code/) contains relevant Jupyter Notebook files with code written for this project, see the readme file in the Code directory for more information.
- * [Data](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Data/) contains shapefiles and the CSV files with data used in this project and the gentrification status labels we generated.  
+ * [Code](https://github.com/dipsuw/Capstone590/master/Code/) contains relevant Jupyter Notebook files with code written for this project, see the readme file in the Code directory for more information.
+ * [Data](https://github.com/dipsuw/Capstone590/master/Data/) contains shapefiles and the CSV files with data used in this project and the gentrification status labels we generated.  
    - _e.g._ `blockgroup_data.csv` includes the demographic data for 2000, and 2010-2017, and `SimplyAnalytics_data_with_labels.csv` contains the same data, but with the gentrification status labels. 
  * [Images](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Images/) contains selected screenshots from the Tableau dashboard and other relevant images.  
  * [Project-Proposal](https://raw.githubusercontent.com/dipsuw/Capstone590/master/Project-Proposal/) contains the final project proposal along with the drafts of the proposal.
@@ -91,3 +91,6 @@ We have some business data in the Data folder, it would be interesting to look a
  * Zuk, M., & Chapple, K. (2015). Urban Displacement Project. [site](http://www.urbandisplacement.org)
  * Urban Spatial Analysis by Ken Steif, Alan Mallach, Michael Fichman, Simon Kassel. Predicting gentrification using longitudinal census data [site](http://urbanspatialanalysis.com/portfolio/predicting-gentrification-using-longitudinal-census-data/)
  * Equitable Futures GitHub repository for the Equity Modeler prototype [site](https://github.com/uwescience/DSSG2017-Equity)
+
+## License
+The content of this project itself is licensed under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). 
