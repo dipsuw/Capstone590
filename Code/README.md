@@ -33,7 +33,7 @@ The files in this directory are all Jupyter Notebook files and you will need Pyt
     Currently Gentrifying, Gentrified, Not Gentrifying
     - Urban Planning Definition
     In danger of Gentrifying, No danger
-  *This file is no longer in use as we replaced the ACS data with yearly modelled data from Simply Analytics.  
+  * This file is no longer in use as we replaced the ACS data with yearly modelled data from Simply Analytics.*
   #### Python Libraries Used
   - [Pandas](http://pandas.pydata.org) : is used for data processing
   - [Numpy](http://www.numpy.org) : is used for data calculations
