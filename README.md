@@ -78,19 +78,21 @@ For information about how to label the data, see the notebook file: [Label_Simpl
  * households with 3+ vehicles & renter occupied units  
  * structures with 5+ Units & percent of family households  
  
-#### Definition Trends 
+#### Gentrification Definition Trends 
 1. The Sociology definition was the most sensitive indicator of gentrification even though it relies in part on home values. But, the home value criteria is static, unlike the Economics definition.
 2. Although the Economics definition only has a single criteria for gentrification, it made gentrification significantly less common since home values do not change much over a single year.
 
 ## Future Work
 Karen Chapple's work in the San Francisco/Oakland area demonstrates a correlation between proximity to public transportation and gentrification. It would be interesting to compare the demographics of the block groups near the new light rail stations in Seattle to those block groups not within walking distance of any stations.  
 
-We have some business data in the Data folder, it would be interesting to look at the rates of new businesses and what kinds of new businesses tend to move into block groups which are in danger of gentrification. 
+We have some business data in the Data folder, `seattle_businesses.csv`, it would be interesting to look at the rates of new businesses and what kinds of new businesses tend to move into block groups which are in danger of gentrification.  
+
+It would also be interesting to look at the crime rates in block groups which are in danger of gentrification. Crime data is available on the [data.seattle.gov](https://data.seattle.gov) site.  
 
 ## Links to Other Gentrification Research Projects:
- * Zuk, M., & Chapple, K. (2015). Urban Displacement Project. [site](http://www.urbandisplacement.org)
- * Urban Spatial Analysis by Ken Steif, Alan Mallach, Michael Fichman, Simon Kassel. Predicting gentrification using longitudinal census data [site](http://urbanspatialanalysis.com/portfolio/predicting-gentrification-using-longitudinal-census-data/)
- * Equitable Futures GitHub repository for the Equity Modeler prototype [site](https://github.com/uwescience/DSSG2017-Equity)
+ * Zuk, M., & Chapple, K. (2015). [Urban Displacement Project](http://www.urbandisplacement.org).
+ * Ken Steif, Alan Mallach, Michael Fichman, Simon Kassel. Predicting gentrification using longitudinal census data [Urban Spatial Analysis](http://urbanspatialanalysis.com/portfolio/predicting-gentrification-using-longitudinal-census-data/)
+ * Equitable Futures GitHub repository for the [Equity Modeler prototype](https://github.com/uwescience/DSSG2017-Equity)
 
 ## License
 The content of this project is licensed under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en_US) and the code used in this project is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php). 
