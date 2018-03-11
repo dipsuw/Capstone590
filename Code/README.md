@@ -19,6 +19,7 @@ The files in this directory are all Jupyter Notebook files and you will need Pyt
   
   #### Python Libraries Used
   - [Pandas](http://pandas.pydata.org) : is used for data processing
+  - [Numpy](http://www.numpy.org) : is used for data calculations
   
 #### `get_data_census_api.ipynb`
 
