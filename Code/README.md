@@ -27,15 +27,15 @@ The files in this directory are all Jupyter Notebook files and you will need Pyt
 #### `Label_ACSData.ipynb`
 
   #### About
-  This file contains code for labelling the ACS 5 year estimates data for years 2010 and 2015. All the census tracts are labelled per three gentrifiction definitions provided to us by sponsors. The label for each definition is described as below:  
-  
-    * Sociology Definition: 
+  This file contains code for labelling the ACS 5 year estimates data for years 2010 and 2015. All the census tracts are labelled per three gentrifiction definitions provided to us by sponsors. The label for each definition is described as below:
+
+   * Sociology Definition: 
     Eligible to Gentrify, Gentrified, Not Eligible
-    * Economics Definition
+   * Economics Definition
     Currently Gentrifying, Gentrified, Not Gentrifying
-    * Urban Planning Definition
+   * Urban Planning Definition
     In danger of Gentrifying, No danger
-    
+      
   ##### Label_ACSData.ipynb is no longer in use as we replaced the ACS data with yearly modelled data from Simply Analytics.
   #### Python Libraries Used
   - [Pandas](http://pandas.pydata.org) : is used for data processing
