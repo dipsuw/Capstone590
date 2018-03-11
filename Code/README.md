@@ -11,11 +11,12 @@ The files in this directory are all Jupyter Notebook files and you will need Pyt
 * imputing missing values
 * finding correlation between various features in gentrification definition
 * label the Simply Analytics data for years 2000, 2010-17. All the census tracts are labelled per three gentrifiction definitions provided to us by sponsors. The label for each definition is described as below:
-    - Sociology Definition: 
+
+    * Sociology Definition: 
     Eligible to Gentrify, Gentrified, Not Eligible
-    - Economics Definition
+    * Economics Definition
     Currently Gentrifying, Gentrified, Not Gentrifying
-    - Urban Planning Definition
+    * Urban Planning Definition
     In danger of Gentrifying, No danger
     
   #### Python Libraries Used
@@ -27,6 +28,7 @@ The files in this directory are all Jupyter Notebook files and you will need Pyt
 
   #### About
   This file contains code for labelling the ACS 5 year estimates data for years 2010 and 2015. All the census tracts are labelled per three gentrifiction definitions provided to us by sponsors. The label for each definition is described as below:  
+  
     * Sociology Definition: 
     Eligible to Gentrify, Gentrified, Not Eligible
     * Economics Definition
